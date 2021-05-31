@@ -264,7 +264,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     O,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(55, 55, 55)}
+                    {BackgroundColor3 = Color3.fromRGB(255, 255, 255)}
                 ):Play()
             end
         )
@@ -273,7 +273,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     O,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(43, 43, 43)}
+                    {BackgroundColor3 = Color3.fromRGB(0, 152, 251)}
                 ):Play()
             end
         )
