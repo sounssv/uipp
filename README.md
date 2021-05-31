@@ -244,7 +244,7 @@ function a:Window(w)
             end
         O.Name = "ButtonObj"
         O.Parent = E
-        O.BackgroundColor3 = Color3.fromRGB(0, 152, 251)
+        O.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
         O.BorderSizePixel = 0
         O.Position = UDim2.new(0, 0, 0.0172413792, 0)
         O.Size = UDim2.new(0, 203, 0, 36)
@@ -264,7 +264,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     O,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(0, 154, 255)}
+                    {BackgroundColor3 = Color3.fromRGB(55, 55, 55)}
                 ):Play()
             end
         )
@@ -301,25 +301,25 @@ function a:Window(w)
         local X = Instance.new("UICorner")
         U.Name = "ToggleObj"
         U.Parent = E
-        U.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+        U.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
         U.BorderSizePixel = 0
         U.Position = UDim2.new(0, 0, 0.0172413792, 0)
         U.Size = UDim2.new(0, 203, 0, 36)
         V.Name = "ToggleText"
         V.Parent = U
-        V.BackgroundColor3 = Color3.fromRGB(79, 174, 236)
+        V.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         V.BackgroundTransparency = 1.000
         V.BorderSizePixel = 0
         V.Size = UDim2.new(0, 203, 0, 36)
         V.Font = Enum.Font.Gotham
         V.Text = "  " .. tostring(Q) or ""
-        V.TextColor3 = Color3.fromRGB(79, 174, 236)
+        V.TextColor3 = Color3.fromRGB(255, 255, 255)
         V.TextSize = 14.000
         V.TextXAlignment = Enum.TextXAlignment.Left
         W.Name = "ToggleStatus"
         W.Parent = U
         W.AnchorPoint = Vector2.new(0, 0.5)
-        W.BackgroundColor3 = S and Color3.fromRGB(0, 154, 255) or Color3.fromRGB(255, 44, 44)
+        W.BackgroundColor3 = S and Color3.fromRGB(14, 255, 110) or Color3.fromRGB(255, 44, 44)
         W.BorderSizePixel = 0
         W.Position = UDim2.new(0.847443342, 0, 0.5, 0)
         W.Size = UDim2.new(0, 24, 0, 24)
@@ -343,7 +343,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     U,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(0, 154, 255)}
+                    {BackgroundColor3 = Color3.fromRGB(43, 43, 43)}
                 ):Play()
             end
         )
@@ -392,7 +392,7 @@ function a:Window(w)
         a4.Size = UDim2.new(0, 203, 0, 36)
         a5.Name = "SliderText"
         a5.Parent = a4
-        a5.BackgroundColor3 = Color3.fromRGB(79, 174, 236)
+        a5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         a5.BackgroundTransparency = 1.000
         a5.BorderSizePixel = 0
         a5.Size = UDim2.new(0, 203, 0, 36)
@@ -465,7 +465,7 @@ function a:Window(w)
                             b.TweenService:Create(
                                 a8,
                                 TweenInfo.new(0.15),
-                                {BackgroundColor3 = Color3.fromRGB(0, 154, 255)}
+                                {BackgroundColor3 = Color3.fromRGB(131, 133, 255)}
                             ):Play()
                         end
                     )
