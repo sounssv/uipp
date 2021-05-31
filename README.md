@@ -244,7 +244,7 @@ function a:Window(w)
             end
         O.Name = "ButtonObj"
         O.Parent = E
-        O.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+        O.BackgroundColor3 = Color3.fromRGB(0, 152, 251)
         O.BorderSizePixel = 0
         O.Position = UDim2.new(0, 0, 0.0172413792, 0)
         O.Size = UDim2.new(0, 203, 0, 36)
@@ -264,7 +264,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     O,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(255, 255, 255)}
+                    {BackgroundColor3 = Color3.fromRGB(55, 55, 55)}
                 ):Play()
             end
         )
@@ -273,7 +273,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     O,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(0, 152, 251)}
+                    {BackgroundColor3 = Color3.fromRGB(43, 43, 43)}
                 ):Play()
             end
         )
@@ -319,7 +319,7 @@ function a:Window(w)
         W.Name = "ToggleStatus"
         W.Parent = U
         W.AnchorPoint = Vector2.new(0, 0.5)
-        W.BackgroundColor3 = S and Color3.fromRGB(14, 255, 110) or Color3.fromRGB(255, 44, 44)
+        W.BackgroundColor3 = S and Color3.fromRGB(0, 154, 255) or Color3.fromRGB(255, 44, 44)
         W.BorderSizePixel = 0
         W.Position = UDim2.new(0.847443342, 0, 0.5, 0)
         W.Size = UDim2.new(0, 24, 0, 24)
