@@ -149,7 +149,7 @@ function a:Window(w)
     B.Size = UDim2.new(0, 54, 0, 34)
     B.Font = Enum.Font.GothamSemibold
     B.Text = "   " .. tostring(w) or ""
-    B.TextColor3 = Color3.fromRGB(2, 155, 255)
+    B.TextColor3 = Color3.fromRGB(255, 255, 255)
     B.TextSize = 14.000
     B.TextXAlignment = Enum.TextXAlignment.Left
     C.Name = "WindowToggle"
@@ -398,7 +398,7 @@ function a:Window(w)
         a5.Size = UDim2.new(0, 203, 0, 36)
         a5.Font = Enum.Font.Gotham
         a5.Text = "  " .. tostring(Y) or ""
-        a5.TextColor3 = Color3.fromRGB(79, 174, 236)
+        a5.TextColor3 = Color3.fromRGB(255, 255, 255)
         a5.TextSize = 14.000
         a5.TextXAlignment = Enum.TextXAlignment.Left
         a6.Name = "SliderBack"
@@ -412,7 +412,7 @@ function a:Window(w)
         a7.Parent = a6
         a8.Name = "SliderPart"
         a8.Parent = a6
-        a8.BackgroundColor3 = Color3.fromRGB(0, 86, 142)
+        a8.BackgroundColor3 = Color3.fromRGB(131, 133, 255)
         a8.BorderSizePixel = 0
         a8.Size = UDim2.new((S or 0) / a2, 0, 1, 0)
         a9.CornerRadius = UDim.new(0, 4)
@@ -420,14 +420,14 @@ function a:Window(w)
         a9.Parent = a8
         aa.Name = "SliderValue"
         aa.Parent = a4
-        aa.BackgroundColor3 = Color3.fromRGB(79, 174, 236)
+        aa.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         aa.BackgroundTransparency = 1.000
         aa.BorderSizePixel = 0
         aa.Position = UDim2.new(0.571428597, 0, 0.166666672, 0)
         aa.Size = UDim2.new(0, 80, 0, 16)
         aa.Font = Enum.Font.Code
         aa.Text = S or a1
-        aa.TextColor3 = Color3.fromRGB(79, 174, 236)
+        aa.TextColor3 = Color3.fromRGB(255, 255, 255)
         aa.TextSize = 14.000
         if S and S ~= a1 then
             N(S)
