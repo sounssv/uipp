@@ -74,7 +74,7 @@ function ClickEffect(r)
             s.Image = "rbxassetid://"
             s.ImageTransparency = 0.800
             s.ScaleType = Enum.ScaleType.Fit
-            s.ImageColor3 = Color3.fromRGB(127, 179, 213)
+            s.ImageColor3 = Color3.fromRGB(131, 132, 255)
             s.Position =
                 UDim2.new(
                 (h.X - s.AbsolutePosition.X) / r.AbsoluteSize.X,
@@ -133,23 +133,23 @@ function a:Window(w)
     z.Size = UDim2.new(0, 212, 0, 2)
     A.Color =
         ColorSequence.new {
-        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(2, 155, 255 )),
-        ColorSequenceKeypoint.new(0.20, Color3.fromRGB(2, 155, 255 )),
-        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(2, 155, 255 )),
-        ColorSequenceKeypoint.new(0.80, Color3.fromRGB(2, 155, 255 )),
-        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(2, 155, 255 ))
+        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(2, 155, 255)),
+        ColorSequenceKeypoint.new(0.20, Color3.fromRGB(2, 155, 255)),
+        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(2, 155, 255)),
+        ColorSequenceKeypoint.new(0.80, Color3.fromRGB(2, 155, 255)),
+        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(2, 155, 255))
     }
     A.Name = "WindowLineGradient"
     A.Parent = z
     B.Name = "Header"
     B.Parent = y
-    B.BackgroundColor3 = Color3.fromRGB(93, 173, 226 )
+    B.BackgroundColor3 = Color3.fromRGB(2, 155, 255)
     B.BackgroundTransparency = 1.000
     B.BorderSizePixel = 0
     B.Size = UDim2.new(0, 54, 0, 34)
     B.Font = Enum.Font.GothamSemibold
     B.Text = "   " .. tostring(w) or ""
-    B.TextColor3 = Color3.fromRGB(255, 255, 255)
+    B.TextColor3 = Color3.fromRGB(2, 155, 255)
     B.TextSize = 14.000
     B.TextXAlignment = Enum.TextXAlignment.Left
     C.Name = "WindowToggle"
@@ -273,7 +273,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     O,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(127, 179, 213 )}
+                    {BackgroundColor3 = Color3.fromRGB(43, 43, 43)}
                 ):Play()
             end
         )
@@ -307,19 +307,19 @@ function a:Window(w)
         U.Size = UDim2.new(0, 203, 0, 36)
         V.Name = "ToggleText"
         V.Parent = U
-        V.BackgroundColor3 = Color3.fromRGB(52, 73, 94 )
+        V.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         V.BackgroundTransparency = 1.000
         V.BorderSizePixel = 0
         V.Size = UDim2.new(0, 203, 0, 36)
         V.Font = Enum.Font.Gotham
         V.Text = "  " .. tostring(Q) or ""
-        V.TextColor3 = Color3.fromRGB(23, 32, 42 )
+        V.TextColor3 = Color3.fromRGB(255, 255, 255)
         V.TextSize = 14.000
         V.TextXAlignment = Enum.TextXAlignment.Left
         W.Name = "ToggleStatus"
         W.Parent = U
         W.AnchorPoint = Vector2.new(0, 0.5)
-        W.BackgroundColor3 = S and Color3.fromRGB(253, 254, 254) or Color3.fromRGB(23, 32, 42 )
+        W.BackgroundColor3 = S and Color3.fromRGB(14, 255, 110) or Color3.fromRGB(255, 44, 44)
         W.BorderSizePixel = 0
         W.Position = UDim2.new(0.847443342, 0, 0.5, 0)
         W.Size = UDim2.new(0, 24, 0, 24)
@@ -355,7 +355,7 @@ function a:Window(w)
                         b.TweenService:Create(
                             W,
                             TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                            {BackgroundColor3 = T[R] and Color3.fromRGB(253, 254, 254) or Color3.fromRGB(23, 32, 42 )
+                            {BackgroundColor3 = T[R] and Color3.fromRGB(14, 255, 110) or Color3.fromRGB(255, 44, 44)}
                         ):Play()
                     end
                 )
@@ -412,7 +412,7 @@ function a:Window(w)
         a7.Parent = a6
         a8.Name = "SliderPart"
         a8.Parent = a6
-        a8.BackgroundColor3 = Color3.fromRGB(131, 133, 255)
+        a8.BackgroundColor3 = Color3.fromRGB(0, 86, 142)
         a8.BorderSizePixel = 0
         a8.Size = UDim2.new((S or 0) / a2, 0, 1, 0)
         a9.CornerRadius = UDim.new(0, 4)
@@ -427,7 +427,7 @@ function a:Window(w)
         aa.Size = UDim2.new(0, 80, 0, 16)
         aa.Font = Enum.Font.Code
         aa.Text = S or a1
-        aa.TextColor3 = Color3.fromRGB(255, 255, 255)
+        aa.TextColor3 = Color3.fromRGB(60, 137, 188)
         aa.TextSize = 14.000
         if S and S ~= a1 then
             N(S)
