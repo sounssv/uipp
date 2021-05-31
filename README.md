@@ -71,7 +71,7 @@ function ClickEffect(r)
             s.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             s.BackgroundTransparency = 1.000
             s.ZIndex = 8
-            s.Image = "rbxassetid://"
+            s.Image = "rbxassetid://2708891598"
             s.ImageTransparency = 0.800
             s.ScaleType = Enum.ScaleType.Fit
             s.ImageColor3 = Color3.fromRGB(131, 132, 255)
@@ -133,17 +133,17 @@ function a:Window(w)
     z.Size = UDim2.new(0, 212, 0, 2)
     A.Color =
         ColorSequence.new {
-        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(2, 155, 255)),
-        ColorSequenceKeypoint.new(0.20, Color3.fromRGB(2, 155, 255)),
-        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(2, 155, 255)),
-        ColorSequenceKeypoint.new(0.80, Color3.fromRGB(2, 155, 255)),
-        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(2, 155, 255))
+        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(43, 43, 43)),
+        ColorSequenceKeypoint.new(0.20, Color3.fromRGB(43, 43, 43)),
+        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(131, 132, 255)),
+        ColorSequenceKeypoint.new(0.80, Color3.fromRGB(43, 43, 43)),
+        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(43, 43, 43))
     }
     A.Name = "WindowLineGradient"
     A.Parent = z
     B.Name = "Header"
     B.Parent = y
-    B.BackgroundColor3 = Color3.fromRGB(2, 155, 255)
+    B.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     B.BackgroundTransparency = 1.000
     B.BorderSizePixel = 0
     B.Size = UDim2.new(0, 54, 0, 34)
