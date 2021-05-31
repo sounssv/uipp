@@ -244,7 +244,7 @@ function a:Window(w)
             end
         O.Name = "ButtonObj"
         O.Parent = E
-        O.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        O.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
         O.BorderSizePixel = 0
         O.Position = UDim2.new(0, 0, 0.0172413792, 0)
         O.Size = UDim2.new(0, 203, 0, 36)
@@ -301,19 +301,19 @@ function a:Window(w)
         local X = Instance.new("UICorner")
         U.Name = "ToggleObj"
         U.Parent = E
-        U.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        U.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
         U.BorderSizePixel = 0
         U.Position = UDim2.new(0, 0, 0.0172413792, 0)
         U.Size = UDim2.new(0, 203, 0, 36)
         V.Name = "ToggleText"
         V.Parent = U
-        V.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        V.BackgroundColor3 = Color3.fromRGB(79, 174, 236)
         V.BackgroundTransparency = 1.000
         V.BorderSizePixel = 0
         V.Size = UDim2.new(0, 203, 0, 36)
         V.Font = Enum.Font.Gotham
         V.Text = "  " .. tostring(Q) or ""
-        V.TextColor3 = Color3.fromRGB(255, 255, 255)
+        V.TextColor3 = Color3.fromRGB(79, 174, 236)
         V.TextSize = 14.000
         V.TextXAlignment = Enum.TextXAlignment.Left
         W.Name = "ToggleStatus"
