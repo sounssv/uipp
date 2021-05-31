@@ -264,7 +264,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     O,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(55, 55, 55)}
+                    {BackgroundColor3 = Color3.fromRGB(118, 118, 118)}
                 ):Play()
             end
         )
@@ -273,7 +273,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     O,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(43, 43, 43)}
+                    {BackgroundColor3 = Color3.fromRGB(87, 87, 87)}
                 ):Play()
             end
         )
@@ -334,7 +334,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     U,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(55, 55, 55)}
+                    {BackgroundColor3 = Color3.fromRGB(0, 154, 255)}
                 ):Play()
             end
         )
@@ -343,7 +343,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     U,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(43, 43, 43)}
+                    {BackgroundColor3 = Color3.fromRGB(0, 154, 255)}
                 ):Play()
             end
         )
