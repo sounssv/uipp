@@ -343,7 +343,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     U,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(0, 154, 255)}
+                    {BackgroundColor3 = Color3.fromRGB(43, 43, 43)}
                 ):Play()
             end
         )
